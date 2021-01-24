@@ -1,0 +1,57 @@
+body{
+	background-color: #5485CF;
+	margin: 0;
+}
+.content{
+	display: flex;
+	flex-flow: row nowrap;
+}
+.content-txt{
+	width: 50%;
+	height: 100vh;
+}
+#title-text{
+	color: #A8A8A8;
+	font-family: Courier New;
+	font-size: 50px;
+	padding-left: 20px;
+	opacity: 0;
+	transform: translateX(-60%) rotate(-90deg);
+}
+#text{
+	font-family: Roboto;
+	font-size: 30px;
+	padding-left: 20px;
+	line-height: 1.3;
+	text-align: justify;
+	opacity: 0;
+}
+.content-img{
+	width: 50%;
+	height: 100vh;
+}
+.top-img{
+	display: flex;
+	justify-content: center;
+	height: 60vh;
+	width: 100%;
+}
+#react-img{
+	height: 100%;
+	transform: translateY(-100%) rotate(-360deg);
+}
+.bottom-img{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	height: 35vh;
+	width: 100%;
+}
+#apple-img{
+	height: 100%;
+	opacity: 0;
+}
+#android-img{
+	height: 100%;
+	transform: translateX(150%) rotate(180deg);
+}
