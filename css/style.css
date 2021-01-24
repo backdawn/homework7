@@ -1,3 +1,7 @@
+html{
+	overflow-x: hidden; 
+	overflow:  hidden;
+}
 body{
 	background-color: #5485CF;
 	margin: 0;
