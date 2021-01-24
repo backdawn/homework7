@@ -39,7 +39,7 @@ function paging() {
 		if (count === -5) {
 			title.style.opacity = ("1");
 			title.style.color = ("#000");
-			title.style.transform = ("translateX(-60%)");
+			title.style.transform = ("translateX(-60%) rotate(-90deg)");
 			title.style.transition = ("1.1s");
 			count = 0;
 		} else if (count === -4){
